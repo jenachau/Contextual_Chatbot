@@ -1,0 +1,685 @@
+{
+        "intents": [
+            {
+                "tag": "GREETING",
+                "patterns": [
+                    "Hi there", 
+                    "How are you", 
+                    "Is anyone there?",
+                    "Hey",
+                    "Hola", 
+                    "Hello", 
+                    "Good day"
+                ],
+                "responses": [
+                    "Hello, thanks for asking!", 
+                    "Good to see you again!", 
+                    "Hi there, how can I help?"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "GOOD BEY",
+                "patterns": [
+                    "Bye!", 
+                    "See you later!", 
+                    "Goodbye!", 
+                    "Nice chatting to you, bye", 
+                    "Till next time"
+                ],
+                "responses": [
+                    "See you!", 
+                    "Have a nice day!", 
+                    "Bye! Come back again soon."
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "THANKS",
+                "patterns": [
+                    "Thanks!", 
+                    "Thank you!", 
+                    "That's helpful!", 
+                    "Awesome, thanks!", 
+                    "Thanks for helping me!"
+                ],
+                "responses": [
+                    "Happy to help!", 
+                    "Any time!", 
+                    "My pleasure"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "0",
+                "patterns": [
+                    ""
+                ],
+                "responses": [
+                    "Sorry, can't understand you. Please give me more info", 
+                    "Please give me more info", 
+                    "Not sure I understand. Please give me more info"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "OPEN",
+                "patterns": [
+                    "When does the spa open?", 
+                    "What time does the spa open?", 
+                    "When does the spa open?", 
+                    "What time does the spa start?"
+                ],
+                "responses": [
+                    "Our spa will open at 8:30"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "CLOSE",
+                "patterns": [
+                    "When does the spa close?", 
+                    "What time does the spa close?", 
+                    "When does the spa close?", 
+                    "What time does the spa close?"
+                ],
+                "responses": [
+                    "Our spa will close at 19:30"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "WORK_TIME",
+                "patterns": [
+                    "What is the opening and closing time of the spa?", 
+                    "What time does the spa work?", 
+                    "What time does the spa work?"
+                ],
+                "responses": [
+                    "Our spa will work from 8:30 to 19:30 and from Monday to Sunday (including public holidays)"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "ADDRESS",
+                "patterns": [
+                    "Is the spa open on Sunday?", 
+                    "Is the spa open on Sunday?", 
+                    "Can I go to the spa on Sunday?"
+                ],
+                "responses": [
+                    "Yes, our Spa is open 8:30 - 19:30, Monday to Sunday (including public holidays)"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "HOLIDAY",
+                "patterns": [
+                    "Is the spa open on holiday?", 
+                    "Is the spa open on holiday?", 
+                    "Can I go to the spa on holiday?"
+                ],
+                "responses": [
+                    "Yes, our Spa is open 8:30 - 19:30, Monday to Sunday (including public holidays)"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "ADDRESS",
+                "patterns": [
+                    "What is the address of the spa?", 
+                    "What is the location of the spa?", 
+                    "Where is the spa located?", 
+                    "Address?", 
+                    "Location?"
+                ],
+                "responses": [
+                    "Our spa's address is 254 Nguyen Van Linh"
+                ],
+                "context": []
+            },
+            {
+                "tag": "CAUSE_ACNE",
+                "patterns": [
+                    "What is the cause of acne?",
+                    "Why do I get acne?",
+                    "Causes of acne?",
+                    "What causes acne?"
+                ],
+                "responses": [
+                    "Changes in hormone-disrupting hormones, Excessive pressure and stress, Unhealthy diet,Genetic factors,Invading bacteri,Do not pop acne right way"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "CONTACT_INFORMATION",
+                "patterns": [
+                    "What is the spa's contact information?", 
+                    "What is the spa contact number?", 
+                    "Contact phone number?", 
+                    "Contact Info?"
+                ],
+                "responses": [
+                    "Our phone number is 0236 3653 561"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "CAUSE_OF_ACNE",
+                "patterns": [
+                    "What are the causes of acne?",
+                    "Cause of acne?", 
+                    "Why do I have acne?", 
+                    "Reason for acne?"
+                ],
+                "responses": [
+                    "- Changes in hormones that cause hormonal disturbances.\n- Too much pressure, too much stress.\n- Unhealthy diet.\n- Genetic factors.\n- Bacterial invasion.\n- Squeeze acne improperly."
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "ACNE_TYPES",
+                "patterns": [
+                    "What are the common types of acne?", 
+                    "Common types of acne", 
+                    "Types of acne", 
+                    "What types of acne are there?", 
+                    "What types of acne are common?", 
+                    "What are the most common types of acne?"
+                ],
+                "responses": [
+                    "There are some types of acne as Blackhead, whitehead, nodule, pustula"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "SKIN_PROBLEMS",
+                "patterns": [
+                    "Common skin problems?", 
+                    "What are common skin problems?", 
+                    "What problems will the skin have?", 
+                    "What cases can the skin have?", 
+                    "The cases cases that the skin may have?"
+                ],
+                "responses": [
+                    "Acne fulminans, acne nodules, blackhead, dermatitis perioral, eksim, flek hitam, folikulities, fungal acne, herpes, Karisnoma, kutil filiform, melanoma, milia, normal, panu, papula, psoriasis, Pustula, rosacea, tinea facials, whitehead"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "INCREASE_ACNE",
+                "patterns": [
+                    "What factors increase the risk of acne?", 
+                    "Factor of acne?", 
+                    "Increase acne?", 
+                    "Factor of acne?"
+                ],
+                "responses": [
+                    "- The drastic change of hormones.\n- Taking drugs containing corticosteroids, Androg or lithium.\n- Letting the skin have too much contact with potentially bacteria-rich objects"
+                ],
+                "context": []
+            },
+            {
+                "tag": "SKIN_CARE",
+                "patterns": [
+                    "How to take care of facial skin?", 
+                    "Take care of facial skin", 
+                    "How to skin care?", 
+                    "skin care"
+                ],
+                "responses": [
+                    "- Clean, gently clean the skin.\n- Use acne cream and serum as directed by a specialist or doctor.\nAlways protect the skin from the effects of the environment.\n- Do not touch your face.\n- Stop exercising after squeezing pimples.\n- Limit makeup.\n- Limit exfoliation"
+                    ],
+                "context": []
+            },
+            {
+                "tag": "ACNE_FULMINANS",
+                "patterns": [
+                    "What is Acne fulminans?", 
+                    "Acne fulminans?", 
+                    "What causes Acne fulminans?", 
+                    "What reason Acne fulminans?", 
+                    "Characterized  of Acne fulminans?", 
+                    "What is Characterized of Acne fulminans?", 
+                    "How to treatment  Acne fulminans?"
+                ],
+                "responses": [
+                    "Characterized:\n- Abrupt onset.\n- Inflammatory and ulcerated nodular acne on chest and back, which is painful.\n- Bleeding crusts over the ulcers on the upper trunk.\nCause:.\n- Increased androgens (male hormones).\n- Autoimmune complex disease and genetic predisposition. .\n- Explosive hypersensitivity reaction to surface bacteria. .\nTreatment:.\n- Patients with acne fulminans should consult a dermatologist urgently. Management can prove difficult.\n- Topical acne medications are unhelpful."
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "ACNE_NODULES",
+                "patterns": [
+                    "What is Acne nodules?",
+                    "Acne nodules?", 
+                    "What causes Acne nodules?",
+                    "What reason Acne nodules?", 
+                    "Characterized  of Acne nodules?", 
+                    "What is Characterized of Acne nodules?", 
+                    "How to treatment  Acne nodules?"
+                ],
+                "responses": [
+                    "Characterized:.\n - The primary symptom of nodular acne is the appearance of hard lesions on the face, chest, or back. It may also affect other parts of the body.\n- Nodules may be the same color as the skin or appear red and inflamed. They may be painful to touch and, many people describe them as hard knots under the skin. .\nCause:.\n- Endogenous and exogenous androgenic hormones.\n- Acne bacteria.\n- Distension and occlusion of the hair follicles .\nTreatment:.\n- As for mild acne plus a tetracycline such as a doxycycline 50–200 mg daily for 6 months or so.\n - Erythromycin or trimethoprim if doxycycline intolerant."
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "BLACKHEAD",
+                "patterns": [
+                    "What is Blackhead?", 
+                    "Blackhead?", 
+                    "What causes Blackhead?", 
+                    "What reason Blackhead?", 
+                    "Characterized  of Blackhead?", 
+                    "What is Characterized of Blackhead?", 
+                    "How to treatment  Blackheads?"
+                ],
+                "responses": [
+                    "Characterized:.\n Blackheads are just an oxidized mix of oil and dead skin cells that are sitting in pores, the exposure to air is what causes them to oxidize and turn black .\nCause:.\n - Free fatty acids made from sebum by acne bacteria.\n- Reduced linoleate (the salt of the essential fatty acid, linoleic acid) in sebum causing more scale and reduced barrier function. .\nTreatment: .\nSuitable topical agents include:.\n - Benzoyl peroxide.\n- Azelaic acid.\n- Salicylic acid +/- sulfur and resorcinol"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "DERMATITIS_PERIORAL",
+                "patterns": [
+                    "What is Dermatitis perioral?", 
+                    "Dermatitis perioral?", 
+                    "What causes Dermatitis perioral?", 
+                    "What reason Dermatitis perioral?", 
+                    "Characterized  of Dermatitis perioral?", 
+                    "What is Characterized of Dermatitis perioral?", 
+                    "How to treatment  Dermatitis perioral?"
+                ],
+                "responses": [
+                    "Characterized:.\n Perioral dermatitis is a skin condition characterized by a red rash around the mouth. It is one type of dermatitis (another word for eczema), which is a general term to describe skin irritation.\nCause:.\n - Epidermal barrier dysfunction.\n - Activation of the innate immune system.\n - Altered cutaneous microflora.\n - Follicular fusiform bacteria.\nTreatment:.\n - Discontinue applying all face creams including topical steroids, cosmetics and sunscreens (zero therapy).\n - Wash the face with warm water alone while the rash is present.\n- Choose a liquid or gel sunscreen."
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "ESKIM",
+                "patterns": [
+                    "What is Eksim?", 
+                    "Eksim?", 
+                    "What causes Eksim?", 
+                    "What reason Eksim?", 
+                    "Characterized  of Eksim?", 
+                    "What is Characterized of Eksim?", 
+                    "How to treatment  Eksim?"
+                ],
+                "responses": [
+                    "Characterized:.\n - Dry, scaly skin.\n - Skin flushing.\n - Itching.\n - Open, crusted, or weeping sores.\nCause:.\n Eczema is a term for atopic dermatitis. It is also known as dry eczema because the problem skin often becomes very dry and flaky.\nTreatment:.\n - Use products specifically made for baby's sensitive skin.\n - Gently clean.\n - Medical treatment"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "FLEK_HITAM",
+                "patterns": [
+                    "What is Flek hitam?", 
+                    "Flek hitam?", 
+                    "What causes Flek hitam?", 
+                    "What reason Flek hitam?", 
+                    "Characterized  of Flek hitam?", 
+                    "What is Characterized of Flek hitam?", 
+                    "How to treatment  Flek hitam?"
+                ],
+                "responses": [
+                    "Characterized:.\n Black scales, also known as plankton, are small dots on the skin that are darker than the surrounding area. Black spots often appear on the face. However, dark spots can also appear on the skin of the arms, chest, or neck.\nCause:.\n Dark spots usually appear after exposure to the sun, such as in the summer, and will disappear when not exposed to the sun.\nTreatment:.\n - Sunscreen (sunblock).\n - White skin cream.\n - Laser therapy.\n - Cryosurgery.\n - Chemical peels"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "FOLIKULITI ",
+                "patterns": [
+                    "What is Folikulitis?", 
+                    "Folikulitis?", 
+                    "What causes Folikulitis?", 
+                    "What reason Folikulitis?", 
+                    "Characterized  of Folikulitis?", 
+                    "What is Characterized of Folikulitis?", 
+                    "How to treatment  Folikulitis?"
+                ],
+                "responses": [
+                    "Characterized:.\n Folliculitis is an inflammation of the hair follicles or where hair grows. This condition is usually caused by a bacterial or fungal infection. Although usually harmless, folliculitis can worsen and cause permanent hair loss.\nCause:.\n - Folliculitis barbae is a type of folliculitis affecting the beard area due to infection with the bacteria Staphylococcus aureus. It occurs in men who shave and in men that do not shave.\nTreatment:.\n - Ensure the skin is well moisturised.\n - Shave in the direction of the follicle, not against it. Do not stretch the skin."
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "HERPES",
+                "patterns": [
+                    "What is Herpes?", 
+                    "Herpes?", 
+                    "What causes Herpes?", 
+                    "What reason Herpes?", 
+                    "Characterized  of Herpes?", 
+                    "What is Characterized of Herpes?", 
+                    "How to treatment  Herpes?"
+                ],
+                "responses": [
+                    "Characterized:.\n Herpes results from infection with the herpes simplex virus (HSV). It causes sores or blisters to form in or around the mouth or genitals, as well as other symptoms.\nCause:.\n Herpes simplex viruses enter through the skin and travel to the nerves, where they generally do not cause problems. Herpes can cause skin sores, however, when the viruses become active.\nTreatment:.\n Antiviral drugs reduce viral shedding, when the virus makes new copies of itself on the skin's surface. "
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "KARSINOMA",
+                "patterns": [
+                    "What is Karsinoma?", 
+                    "Karsinoma?", 
+                    "What causes Karsinoma?", 
+                    "What reason Karsinoma?", 
+                    "Characterized  of Karsinoma?", 
+                    "What is Characterized of Karsinoma?", 
+                    "How to treatment  Karsinoma?"
+                ],
+                "responses": [
+                    "Characterized:.\n Carcinoma is the most common type of cancer. It begins in the epithelial tissue of the skin, or in the tissue that lines internal organs, such as the liver or kidneys. Carcinomas may spread to other parts of the body, or be confined to the primary location.\nCause:.\n Squamous cell carcinoma of the skin occurs when the flat, thin squamous cells in the middle and outer layers of your skin develop changes (mutations) in their DNA.\nTreatment:.\n - Avoid the sun during the middle of the day.\n - Wear sunscreen year-round.\n - Wear protective clothing.\n - Avoid tanning beds."
+                    ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "KUTIL FILIFORM",
+                "patterns": [
+                    "What is Kutil filiform?", 
+                    "Kutil filiform?", 
+                    "What causes Kutil filiform?", 
+                    "What reason Kutil filiform?", 
+                    "Characterized  of Kutil filiform?", 
+                    "What is Characterized of Kutil filiform?", 
+                    "How to treatment  Kutil filiformoma?"
+                ],
+                "responses": [
+                    "Characterized:.\n Kutil filiform grows on areas of the face, such as around the eyes, nose, mouth, and under the chin or neck. The appearance of this type of wart is similar to a tag on the skin, usually small and closely related in color to the skin.\nCause:.\n This abnormal skin growth is caused by the HPV virus.\nTreatment:.\n - Bleomycin, or Blenoxane, an anticancer medication, can be injected into the wart.\n - Chemical peels can help remove flat warts.\n - Antibiotics are only effective in the case of infection."
+                    ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "MELANOMA",
+                "patterns": [
+                    "What is Melanoma?", 
+                    "Melanoma?", 
+                    "What causes Melanoma?", 
+                    "What reason Melanoma?", 
+                    "Characterized  of Melanoma?", 
+                    "What is Characterized ofMelanoma?", 
+                    "How to treatment  Melanoma?"
+                ],
+                "responses": [
+                    "Characterized:.\n Melanomas can develop anywhere on your body. They most often develop in areas that have had exposure to the sun, such as your back, legs, arms and face.\nCause:.\n The exact cause of all melanomas isn't clear, but exposure to ultraviolet (UV) radiation from sunlight or tanning lamps and beds increases your risk of developing melanoma.\nTreatment:.\n - Avoid the sun during the middle of the day.\n - Wear sunscreen year-round.\n - Wear protective clothing.\n - Avoid tanning lamps and beds. "
+                    ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "MILIA",
+                "patterns": [
+                    "What is Milia?", 
+                    "Milia?", 
+                    "What causes Milia?", 
+                    "What reason Milia?", 
+                    "Characterized  of Milia?", 
+                    "What is Characterized of Milia?", 
+                    "How to treatment  Milia?"
+                ],
+                "responses": [
+                    "Characterized:.\n Milia are small, bump-like cysts found under the skin. They are usually 1 to 2 millimeters (mm) in size.\nCause:.\n - Skin damage from something like a rash, an injury, or sun exposure.\n - Long-term use of steroid medications.\n - Your genes.\n - An autoimmune condition.\nTreatment:.\n - Use sunscreen and moisturizer.\n- Keep your face clean."
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "PANU",
+                "patterns": [
+                    "What is Panu?", 
+                    "Panu?", 
+                    "What causes Panu?", 
+                    "What reason Panu?", 
+                    "Characterized  of Panu?", 
+                    "What is Characterized of Panu?", 
+                    "How to treatment  Panu?"
+                ],
+                "responses": [
+                    "Characterized:.\n This naturally occurring yeast gets into hair follicles on your skin and causes breakouts to erupt on your skin’s surface.\nCause:.\n The cause of this infection is a type of malassezia fungus that grows on the surface of the skin.\nTreatment:.\n Several other types of drugs commonly used to treat tinea versicolor include:.\n - Clotrimazole (Lotrimin AF, Mycelex).\n - Mkonazol (Monistat, M-Zole).\n - Selenium sulfida (sampo Selsun Blue)"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "PAPULA",
+                "patterns": [
+                    "What is Papula?", 
+                    "Papula?", 
+                    "What causes Papula?", 
+                    "What reason Papula?", 
+                    "Characterized  of Papula?", 
+                    "What is Characterized of Papula?", 
+                    "How to treatment  Papula?"
+                ],
+                "responses": [
+                    "Characterized:.\n A papule is a small red bump. Its diameter is usually less than 5 millimeters.\nCause:.\n - Bacteria.\n - Excess oil production.\n - Excess activity of androgens (male sex hormones).\nTreatment:.\n - Retinoid (and retinoid-like) drugs.\n - Antibiotics. Topical antibiotics can kill excess bacteria on the skin and reduce redness. "
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "PSORIASIS",
+                "patterns": [
+                    "What is Psoriasis?", 
+                    "Psoriasis?", 
+                    "What causes Psoriasis?", 
+                    "What reason Psoriasis?", 
+                    "Characterized  of Psoriasis?", 
+                    "What is Characterized of Psoriasis?", 
+                    "How to treatment  Psoriasis?"
+                ],
+                "responses": [
+                    "Characterized:.\n Psoriasis is a skin condition that causes red, flaky, crusty patches of skin covered with silvery scales.\nCause:.\n Psoriasis occurs when skin cells are replaced more quickly than usual. It's not known exactly why this happens, but research suggests it's caused by a problem with the immune system.\nTreatment:.\n - Steroid creams or ointments.\n - Vitamin D analogues.\n - Calcineurin inhibitors." 
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "PUSTULA",
+                "patterns": [
+                    "What is Pustula?", 
+                    "Pustula?", 
+                    "What causes Pustula?", 
+                    "What reason Pustula?", 
+                    "Characterized  of Pustula?", 
+                    "What is Characterized of Pustula?", 
+                    "How to treatment  Pustula?"
+                ],
+                "responses": [
+                    "Characterized:.\n Pustules are small bumps on the skin that contain fluid or pus. They usually appear as white bumps surrounded by red skin. These bumps look very similar to pimples, but they can grow quite big.\nCause:.\n - Pustules may form when your skin becomes inflamed as a result of an allergic reaction to food, environmental allergens, or poisonous insect bites.\n - However, the most common cause of pustules is acne.\n- Pustules usually contain pus due to an infection of the pore cavity.\nTreatment:.\n - If small pustules persist, it’s helpful to wash your skin using warm water and a mild facial cleanser.\n - You may also want to use over-the-counter (OTC) acne medications, soaps, or creams to treat small acne pustules.\n - The best topical products for treating pustules contain peroxide, salicylic acid, and sulfur."
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "ROSACEA",
+                "patterns": [
+                    "What is Rosacea?", 
+                    "Rosaceastula?", 
+                    "What causes Rosacea?", 
+                    "What reason Rosaceatula?",
+                    "Characterized  of Rosacea?", 
+                    "What is Characterized of Rosacea?", 
+                    "How to treatment  Rosacea?"
+                ],
+                "responses": [
+                    "Characterized:.\n The main symptoms of rosacea are facial flushing, irritated skin, and pimples. Other symptoms include blushing easily and eye problems.\nCause:.\n The cause of rosacea is unknown, but it could be due to an overactive immune system, heredity, environmental factors or a combination of these. Rosacea is not caused by poor hygiene and it's not contagious.\nTreatment:.\n - Topical drugs that reduce flushing.\n- Other topical products help control the pimples of mild rosacea.\n- Oral antibiotics. Your doctor may prescribe an oral antibiotic. Oral acne drug. "
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "TINEA_FACIALIS",
+                "patterns": [
+                    "What is Tinea facialis?", 
+                    "Tinea facialis?", 
+                    "What causes Tinea facialis?", 
+                    "What reason Tinea facialis?", 
+                    "Characterized  of Tinea facialis?", 
+                    "What is Characterized of Tinea facialis?", 
+                    "How to treatment  Tinea facialis?"
+                ],
+                "responses": [
+                    "Characterized:.\n Tinea facialis is the name used for infection of the face with a dermatophyte fungus. It does not include infection of the beard and moustache area, which is called tinea barbae. Tinea faciei is uncommon and often misdiagnosed at first.\nCause:.\n - Tinea faciei can be due to an anthropophilic (human) fungus such as Trichophyton rubrum (T rubrum).\n- Infection often comes from the feet (tinea pedis) or nails (tinea unguium) originally.\nTreatment:.\n - Tinea corporis is typically treated with topical antifungal agents (ketoconazole, clotrimazole, terbinafine),.\n- For tinea capitis and tinea involving the nailbeds, oral therapy is required.\n- Use of extensive oral antifungal treatment regimens requires baseline liver function testing and then needs to be repeated halfway through a typical 12-week treatment regimen.\n - Prescribing combination steroid/antifungal creams is common"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "WHITEHEAD",
+                "patterns": [
+                    "What is White head?", 
+                    "White head?", 
+                    "What causes White head?", 
+                    "What reason White head?", 
+                    "Characterized  of White head?", 
+                    "What is Characterized of White head?", 
+                    "How to treatment  White head?"
+                ],
+                "responses": [
+                    "Characterized:.\n A whitehead is a type of acne that forms when dead skin cells, oil, and bacteria become trapped within one of your pores. Whiteheads can be annoying, and they may seem to develop at the worst times.\nCause:.\n - Whiteheads occur when skin pores clog with oil, dead skin, and debris.\n- Hormonal changes. During puberty, androgen hormone levels rise, which increases oil production and stimulates new skin cell turnover.\n - Changing hormone levels can also contribute to breakouts during menstruation, pregnancy and menopause.\nTreatment:.\n - Non-inflammatory acne, including whiteheads, may respond to over-the-counter (OTC) treatments.\n - For mild breakouts, benzoyl peroxide and salicylic acid products can be effective.\n - In some cases, doctors recommend extruding or extracting whiteheads when medication fails to get rid of them."
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "SERVICE",
+                "patterns": [
+                    "What types of services are there?", 
+                    "Type of services?",
+                    "What kind of services are there?", 
+                    "How many services?"
+                ],
+                "responses": [
+                    "ACNE SPECTRA, SILK STEM CELL ACNE TREATMENT, ACNE CARBOXY, SILICONE ACNE, BACKGROUND ACNE, RECOVERY SERUM SKIN, NON-NEEDLE FOR FACIAL SKIN, PRP 3.0, ELIGHT FACE, FACE BURN WITH ELECTRONIC PULSE TECHNOLOGY, CARBXYL DETOXIFICATION THERAPY, LUXURY SKINCARE TREATMENT, GLUTATHIONE INVESTMENT, RED GINSENG TRANSPLANTATION, FACE BLOOD SWALLOW'S NEST"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "ACNE_SERVICE",
+                "patterns": [
+                    "What types of services for acne are there?", 
+                    "Type of acne services?",
+                    "What kind of services for acne are there?", 
+                    "How many acne services?", 
+                    "Acne Service"
+                ],
+                "responses": [
+                    "ACNE SPECTRA, SILK STEM CELL ACNE TREATMENT, ACNE CARBOXY, SILICONE ACNE, BACKGROUND ACNE, RECOVERY SERUM SKIN, NON-NEEDLE FOR FACIAL SKIN"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "MELASMA_SERVICE",
+                "patterns": [
+                    "What types of services for Facial melasma treatment are there?", 
+                    "Type of acne Facial melasma treatment?",
+                    "What kind of services for Facial melasma treatment are there?", 
+                    "How many Facial melasma treatment services?", 
+                    "Facial melasma treatment Service"
+                ],
+                "responses": [
+                    "PRP 3.0, ELIGHT FACE, FACE BURN WITH ELECTRONIC PULSE TECHNOLOGY"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "SKINCARE_SERVICE",
+                "patterns": [
+                    "What types of services for skincare are there?", 
+                    "Type of acne skincare?", 
+                    "What kind of services for skincare are there?", 
+                    "How many skincare services?", 
+                    "Skincare Service"
+                ],
+                "responses": [
+                    "CARBXYL DETOXIFICATION THERAPY, LUXURY SKINCARE TREATMENT, GLUTATHIONE INVESTMENT, RED GINSENG TRANSPLANTATION, FACE BLOOD SWALLOW'S NEST"
+                ],
+                "context": [
+                    ""
+                ]
+            },
+            {
+                "tag": "PRICE",
+                "patterns": [
+                    "What is the price of the services here?", 
+                    "What is the price?", 
+                    "The price", 
+                    "The price of service"
+                ],
+                "responses": [
+                    " - ACNE SPECTRA: $70.\n- SILK STEM CELL ACNE TREATMENT: $20.\n- ACNE CARBOXY: $66.\n- SILICONE ACNE: $35.\n- BACKGROUND ACNE:  $19.\n- RECOVERY SERUM SKIN: $52.\n - NON-NEEDLE FOR FACIAL SKIN: $87.\n- PRP 3.0: $130.\n- ELIGHT FACE:  $52.\n- FACE BURN WITH ELECTRONIC PULSE TECHNOLOGY: $75.\n- CARBXYL DETOXIFICATION THERAPY: $35.\n - LUXURY SKINCARE TREATMENT: $40.\n- GLUTATHIONE INVESTMENT: $50.\n- RED GINSENG TRANSPLANTATION: $55.\n- FACE BLOOD SWALLOW'S NEST: $70 "
+                ],
+                "context": [
+                    ""
+                ]
+            }
+    
+        ]
+    }
